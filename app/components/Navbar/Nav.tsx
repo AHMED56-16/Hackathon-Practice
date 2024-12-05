@@ -63,7 +63,7 @@ const Nav = () => {
               <span className="absolute left-0 bottom-0 w-0 h-[2px] bg-current transition-all duration-300 group-hover:w-full"></span>
             </Link>
             <Link
-              href="#"
+              href="/contact"
               className="relative group text-[#b5b2b2] transition duration-300"
             >
               Contact
