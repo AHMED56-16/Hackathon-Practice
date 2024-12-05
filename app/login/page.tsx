@@ -8,7 +8,7 @@ export default function Login() {
                 <div className="flex justify-center md:w-[50%] mb-8 md:mb-0">
                     <Image src={loginPageImage} alt="Login Page" width={805} height={781} className="rounded-tr-[4px] rounded-br-[4px] object-cover" />
                 </div>
-                <div className="flex flex-col w-[371px] h-[326px] gap-[40px] justify-center items-center">
+                <div className="flex flex-col w-[371px] h-[326px] gap-[40px] justify-center items-center ml-[100px] mt-28">
                     <h1 className="text-[36px] font-medium leading-[30px] tracking-[4%] text-center">Log in to Exclusive</h1>
                     <p className="text-[16px] font-normal leading-[24px] text-center">Enter your details below</p>
                     <div className="flex flex-col space-y-4 w-full">
