@@ -3,10 +3,11 @@ import React from "react";
 import { poppins } from "@/app/fonts/font";
 import {
   ChevronDownIcon,
-  SearchIcon,
+  MagnifyingGlassIcon  ,
   HeartIcon,
   ShoppingCartIcon,
-} from "@heroicons/react/solid";
+} from "@heroicons/react/24/solid";
+import MobileNav from "./MobileNav";
 
 const Nav = () => {
   return (
@@ -42,7 +43,7 @@ const Nav = () => {
 
       {/* Navbar */}
 
-      <div className="bg-[#FFFFFF] border-b border-gray-300 h-[75px] flex items-center justify-center mt-[10px] px-[135px]">
+      <div className="bg-[#FFFFFF] md:border-b border-gray-300 h-[50px] md:h-[75px] flex items-center justify-center mt-[10px] px-5 sm:px-[135px]">
         {/* Inner container */}
         <div className="w-[1170px] h-[38px] flex items-center justify-between">
           {/* Left Section: Logo */}
@@ -53,7 +54,7 @@ const Nav = () => {
           </div>
 
           {/* Center Section: Nav Links */}
-          <div className="hidden md:flex items-center space-x-[48px] text-[16px] text-[#b5b2b2]">
+          <div className="hidden md:flex items-center space-x-[24px] text-[16px] text-[#b5b2b2] ">
             <Link
               href="/"
               className="relative group text-[#b5b2b2] transition duration-300"
@@ -97,7 +98,7 @@ const Nav = () => {
                 placeholder="What are you looking for?"
                 className="bg-transparent outline-none text-sm w-48"
               />
-              <SearchIcon className="w-5 h-5 text-gray-500" />
+              <MagnifyingGlassIcon  className="w-5 h-5 text-gray-500" />
             </div>
 
             {/* Icons */}
@@ -108,6 +109,7 @@ const Nav = () => {
           </div>
         </div>
       </div>
+      <MobileNav /> 
     </>
   );
 };
