@@ -12,8 +12,13 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        // Adding breakpoints
+        xs: "480px"
+      },
     },
   },
   plugins: [],
 };
+
 export default config;
