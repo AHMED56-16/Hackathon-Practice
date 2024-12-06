@@ -10,7 +10,7 @@ import whislistImage8 from "@/public/assests/Whislist-Image-8.png";
 import {
   ShoppingCartIcon,
   TrashIcon
-} from "@heroicons/react/solid";
+} from '@heroicons/react/24/solid';
 
 export default function Whislist() {
   return (
